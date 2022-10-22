@@ -61,8 +61,8 @@ async function processImage(
   const imagesContent = imagesUrls
     .map(
       (_, index) => `
-    <a href="/jamstack-teste/images/${index}.jpg">
-        <img src="/jamstack-teste/thumbnails/${index}.jpg">
+    <a href="/ssg-example-cats/images/${index}.jpg">
+        <img src="/ssg-example-cats/thumbnails/${index}.jpg">
     </a>
   `
     )
